@@ -1,4 +1,4 @@
-from bank import bank_details
+from bank import bank
 
 def test_bank_details():
     expected_output = {
@@ -8,4 +8,4 @@ def test_bank_details():
         "Balance": 20000
     }
 
-    assert bank_details(101, "Suraj", "Savings", 20000) == expected_output
+    assert bank(101, "Suraj", "Savings", 20000) == expected_output
