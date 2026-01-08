@@ -2,9 +2,9 @@ from bank import bank
 
 def test_bank():
     expected_output = {
-        "Account Number": 101,
-        "Account Holder Name": "Suraj",
-        "Account Type": "Savings",
+        "Account_Number": 101,
+        "Account_Holder_Name": "Suraj",
+        "Account_Type": "Savings",
         "Balance": 20000
     }
 
