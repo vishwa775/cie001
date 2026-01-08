@@ -1,6 +1,6 @@
 from bank import bank
 
-def test_bank_details():
+def test_bank():
     expected_output = {
         "Account Number": 101,
         "Account Holder Name": "Suraj",
