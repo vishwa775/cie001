@@ -1,17 +1,17 @@
-def bank(Account_Number, Account_Holder_Name, Account_Type, Balance):
+def bank(account_Number,account_Holder_Name,account_Type,balance):
     result = {
-        f"Account_Number": Account_Number,
-        f"Account_Holder Name": Account_Holder_Name,
-        f"Account_Type": Account_Type,
-        f"Balance": Balance
+        f"account_Number": Account_Number,
+        f"account_Holder_Name": Account_Holder_Name,
+        f"account_Type": Account_Type,
+        f"balance": Balance
     }
     return result
 
 
 if __name__ == "__main__":
-    Account_Number = 101
-    Account_Holder_Name = "Suraj"
-    Account_Type = "Savings"
-    Balance = 20000
+    account_Number = 101
+    account_Holder_Name = "Suraj"
+    account_Type = "Savings"
+    balance = 20000
 
-    print(bank(Account_Number, Account_Holder_Name, Account_Type, Balance))
+    print(bank(account_Number,account_Holder_Name,account_Type,balance))
