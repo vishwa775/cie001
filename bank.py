@@ -1,9 +1,9 @@
 def bank(account_Number,account_Holder_Name,account_Type,balance):
     result = {
-        f"account_Number": Account_Number,
-        f"account_Holder_Name": Account_Holder_Name,
-        f"account_Type": Account_Type,
-        f"balance": Balance
+        f"account_Number": account_Number,
+        f"account_Holder_Name": account_Holder_Name,
+        f"account_Type": account_Type,
+        f"balance": balance
     }
     return result
 
