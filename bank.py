@@ -1,4 +1,4 @@
-def bank(account_number, account_holder_name, account_type, balance):
+def bank(Account_Number, Account_Holder_Name, Account_Type, Balance):
     result = {
         f"Account Number": {account_number},
         f"Account Holder Name": {account_holder_name},
@@ -14,4 +14,4 @@ if __name__ == "__main__":
     Account_type = "Savings"
     Balance = 20000
 
-    print(bank(account_number, account_holder_name, account_type, balance))
+    print(bank(Account_Number, Account_Holder_Name, Account_Type, Balance))
