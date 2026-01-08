@@ -9,9 +9,9 @@ def bank(Account_Number, Account_Holder_Name, Account_Type, Balance):
 
 
 if __name__ == "__main__":
-    Account_number = 101
-    Account_holder_name = "Suraj"
-    Account_type = "Savings"
+    Account_Number = 101
+    Account_Holder_Name = "Suraj"
+    Account_Type = "Savings"
     Balance = 20000
 
     print(bank(Account_Number, Account_Holder_Name, Account_Type, Balance))
